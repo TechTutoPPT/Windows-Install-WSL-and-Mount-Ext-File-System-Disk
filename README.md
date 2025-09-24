@@ -1,5 +1,7 @@
 # Windows-Install-WSL-and-Mount-Ext-File-System-Disk
 
+[![借助WSL讀寫Ext4檔安系統](https://github.com/TechTutoPPT/Windows-Install-WSL-and-Mount-Ext-File-System-Disk/blob/main/cover.PNG)](https://youtu.be/Iar45xBuMzo)
+
 由於Windows預設是不支持Ext4檔案系統的, 而Linux裝置又大多以Ext4作為檔案系統, 例如上期影片中小米路使用的USB磁碟格式便是Ext4,
 那假如想在Windows中透過USB直接讀寫小米路由的USB磁碟可以怎樣辦呢? 其實方法有很多, 例如安裝Ext2Fsd以支援Ext4驅動, 
 亦可使用如DiskGenius這類磁碟管理工具亦可, 而今集介紹的是直接以Windows 11 Pro內置支援的WSL系統來處理.
